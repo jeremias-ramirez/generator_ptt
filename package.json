@@ -1,0 +1,24 @@
+{
+  "name": "generator_ptt",
+  "version": "1.0.0",
+  "description": "Service to extract text of images with Amazon Rekognition and generate PTT with Google Slides API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "~2.1135.0",
+    "dotenv": "~16.0.1",
+    "google-auth-library": "~0.10.0",
+    "googleapis": "~19.0.0",
+    "jimp": "^0.16.1",
+    "openurl": "^1.1.1"
+  },
+  "engines": {
+    "npm": ">=6.14.12",
+    "node": ">=14.16.1"
+  },
+  "author": "jeremias ramirez",
+  "license": "MIT"
+}
